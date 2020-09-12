@@ -58,7 +58,7 @@ class Sapi {
 		echo "Dia ".$Sepi ->bisa_terbang. "<br>";
 		echo "Dan dia bersuara ".$Sepi ->suara. "<hr>";
 
-class Kucing {
+class Tikus {
 	function nama(){
 		return $this ->nama;
 	}
