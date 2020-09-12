@@ -12,7 +12,7 @@ class Kucing {
 	$Tom = new Kucing;
 	$Tom ->nama = "Tom";
 	$Tom ->jumlah_kaki = 4;
-	$Tom ->bisa_terbang = "Tidak Bisa";
+	$Tom ->bisa_terbang = "Tidak Bisa terbang";
 	$Tom ->suara = "meow meow meow";
 
 
@@ -21,6 +21,24 @@ class Kucing {
 		echo "Dia mempunyai kaki sebanyak ".$Tom ->jumlah_kaki. "<br>";
 		echo "Dia ".$Tom ->bisa_terbang. "<br>";
 		echo "Dan dia bersuara ".$Tom ->suara. "<hr>";
+
+class Ayam {
+	function nama(){
+		return $this ->nama;
+	}
+}
+	$Rembo = new Ayam;
+	$Rembo ->nama = "Rembo";
+	$Rembo ->jumlah_kaki = 2;
+	$Rembo ->bisa_terbang = "Bisa terbang kalau di seregah";
+	$Rembo ->suara = "kukuruyuk";
+
+
+		echo "Ada seekor ayam bernama si ".$Rembo ->nama();
+		echo "<br>";
+		echo "Dia mempunyai kaki sebanyak ".$Rembo ->jumlah_kaki. "<br>";
+		echo "Dia ".$Rembo ->bisa_terbang. "<br>";
+		echo "Dan dia bersuara ".$Rembo ->suara. "<hr>";
 
 
 
