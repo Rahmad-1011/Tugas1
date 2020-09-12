@@ -58,6 +58,23 @@ class Sapi {
 		echo "Dia ".$Sepi ->bisa_terbang. "<br>";
 		echo "Dan dia bersuara ".$Sepi ->suara. "<hr>";
 
+class Kucing {
+	function nama(){
+		return $this ->nama;
+	}
+}
+	$Jerry = new Tikus;
+	$Jerry ->nama = "Jerry";
+	$Jerry ->jumlah_kaki = 4;
+	$Jerry ->bisa_terbang = "Tidak Bisa terbang";
+	$Jerry ->suara = "cit cit cit";
+
+
+		echo "Ada seekor tikus bernama si ".$Jerry ->nama();
+		echo "<br>";
+		echo "Dia mempunyai kaki sebanyak ".$Jerry ->jumlah_kaki. "<br>";
+		echo "Dia ".$Jerry ->bisa_terbang. "<br>";
+		echo "Dan dia bersuara ".$Jerry ->suara. "<hr>";
 
 
 
